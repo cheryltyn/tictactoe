@@ -4,11 +4,20 @@
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
   }
-  
+
+  h1 {
+    height: 10vh;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    position: relative;
+    top: 50px;
+  }
 
   body {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
@@ -39,7 +48,7 @@
     font-size: 12vmin;
     background-color: white;
   }
-/*
+
   #restart {
     font-size: 1.3em;
     padding: 1em;
@@ -48,37 +57,7 @@
     color: #ffffff;
     border: none;
     position: relative;
-    margin: 1.5em auto 0 auto;
+    bottom: 50px;
+    margin: 1em auto 0 auto;
     display: block;
   }
-  .popup {
-    background: linear-gradient(135deg, #8052ec, #d161ff);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    display: flex;
-    z-index: 2;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1em;
-    font-size: 12vmin;
-  }
-  #new-game {
-    font-size: 0.6em;
-    padding: 0.5em 1em;
-    background-color: #0a0027;
-    color: #ffffff;
-    border-radius: 0.2em;
-    border: none;
-  }
-  #message {
-    color: #ffffff;
-    text-align: center;
-    font-size: 1em;
-  }
-  .popup.hide {
-    display: none;
-  }
-
-  */
